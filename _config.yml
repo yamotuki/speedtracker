@@ -27,3 +27,5 @@ defaults:
     values:
       layout: data
       permalink: /:path/
+
+theme: jekyll-theme-cayman
