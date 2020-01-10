@@ -24,7 +24,7 @@ class Dashboard extends React.Component {
       const timestamp = timestamps[index]
       const result = results[timestamp]
       const encodedUrl = encodeURIComponent(profileUrl)
-      const insightsUrl = `https://developers.google.com/speed/pagespeed/insights/?url=${encodedUrl}`
+      const insightsUrl = `https://developers.google.com/speed/pagespeed/insights/?url=${encodedUrl}&tab=mobile`
       const lighthouseUrl = `https://www.webpagetest.org/lighthouse.php?test=${result.id}`
 
       if (event.shiftKey) {
